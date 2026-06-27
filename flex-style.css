@@ -1,0 +1,43 @@
+/* Page Wrapper */
+/* .page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+/* Header */
+header {
+  height: 150px;
+  background-color: #1ea64a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Main Content */
+.main {
+  display: flex;
+}
+
+.sidebar {
+  max-width: 300px;
+  background-color: #f0f0f0;
+  flex: 1;
+  text-align: center;
+}
+
+.map {
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 680px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    max-width: 100%;
+  }
+}

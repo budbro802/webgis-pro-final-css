@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML WebGIS - Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="mainHeader">Finance GIS</h1>
+
+        <h2 id="secondHeader">Plan your investments with confidence</h2>
+      </header>
+      <main class="main">
+        <section id="aboutSection">
+          <h2>About this application</h2>
+          <p>
+            This application demonstrates the power of integrating geographic
+            information systems with financial data to provide deeper insights
+            and more informed decision-making.
+          </p>
+          <p>
+            It assists investors in identifying geographic trends and patterns
+            in just a few clicks.
+          </p>
+        </section>
+
+        <section id="mapSection">
+          <h2 class="body-header">Map</h2>
+          <div id="map-container">
+            <img id="myMap" src="images/eruo-map.png" alt="Europe Map" />
+            <img
+              id="myZoom"
+              src="images/zoom-toggle.png"
+              alt="Zoom Toggle"
+            />
+          </div>
+          <div id="map-source-link-wrapper">
+            <span id="map-source"><em>Map Source:</em> </span>
+            <a
+              href="https://open-power-system-data.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Power System Data</a
+              
+            >
+          </div>
+        </p>
+
+        <h2 class="body-header">Layer List</h2>
+        <ul>
+          <li>Basemap</li>
+          <li>Buses</li>
+          <li>Lines</li>
+          <li>Transformers</li>
+          <li>Substations</li>
+        </ul>
+
+        <h2 class="body-header">Company Data</h2>
+
+        <table class="attributeTables" role="presentation">
+          <tr>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>Andrew Anderson</td>
+            <td>555-1234</td>
+            <td>Atlanta, GA</td>
+          </tr>
+          <tr>
+            <td>Dave Chappelle</td>
+            <td>555-5678</td>
+            <td>Reynolds, OH</td>
+          </tr>
+          <tr>
+            <td>Michael Jordan</td>
+            <td>555-9012</td>
+            <td>Chicago, IL</td>
+          </tr>
+          <tr>
+            <td>Derrick Rose </td>
+            <td>555-3456</td>
+            <td>Chicago, IL</td>
+          </tr>
+          <tr>
+            <td>Kobe Bryant</td>
+            <td>555-7890</td>
+            <td>Los Angeles, CA</td>
+          </tr>
+        </table>
+
+        <p>
+          <label for="number-input">Enter a number:</label>
+          <input type="number" id="number-input" placeholder="e.g. 200" />
+          <input type="button" value="Submit" />
+        </p>
+      </main>
+      <footer>&copy; 2026 Andrew's Footer</footer>
+    </div>
+  </body>
+</html>
